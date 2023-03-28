@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Edu+NSW+ACT+Foundation:wght@700&display=swap');
+*{
+    margin: 0;padding: 0;
+
+}
+body{
+    background-image: url(img/pexels-maxyne-barcel-10402282\ 1.png);
+    /* background-size: 100%; */
+    width: 100%;
+    height: 100%;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("./assets/pexels-maxyne-barcel-10402282 1.png"); */
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-size: 1000vh; */
+}
+header{
+    width: 100vw;
+    height: 15vh;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.logo img{
+    /* display: flex;
+    align-items: center; */
+    margin-left: 1vw;
+    width: 15vw;
+    height: 15vh;
+}
+.nav{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* gap: 6vw; */
+/* flex-direction: column; */
+}
+.nav a{
+    color: rgb(255, 255, 14);
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Delicious Handrawn', cursive;
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    list-style: none;
+gap: 5vw;
+margin-left: 15vw;
+}
+.nav li{
+    font-size: 20px;
+    /* color: rgb(84, 84, 67); */
+    font-weight: bold;
+    /* font-weight: 900; */
+}
+.btn button{
+    margin-left: 20vw;
+    border-radius: 5px;
+    background-color: rgb(235, 58, 58);
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding: 3px;
+    font-family: 'Delicious Handrawn', cursive;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: white;
+    color: rgb(235, 58, 58) ;
+    border: 4px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+ .nav a:hover{
+    color: black;
+    background-color: rgb(255, 255, 14) ;
+    border-radius: 29px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+main{
+margin-top: 15vh;
+/* margin-left: auto; */
+display: flex;
+justify-content: center;
+align-items: center;
+/* display: flex; */
+flex-direction: column;
+}
+main h1{
+font-size: 100px;
+font-family: 'Edu NSW ACT Foundation', cursive;
+color: rgb(255, 212, 20);
+font-weight: bold;
+line-height: 100px;
+/* font-variant: small-caps; */
+}
+main button{
+margin-top: 4vh;
+border-radius: 5px;
+    background-color: rgb(235, 58, 58);
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 3px;
+   cursor: pointer;
+    font-family:'Edu NSW ACT Foundation', cursive ;
+}
+main button:hover{
+    background-color: white;
+    color: rgb(235, 58, 58) ;
+    border: 4px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    align-items: center;
+    margin-top: 9vh;
+}
+footer h3{
+    font-size: 25px;
+    color:  rgb(255, 212, 20);
+    margin-left: 5vw;
+    font-style: oblique;
+}
+.ids{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:40vw ;
+    gap: 5vw;
+    color: rgb(255, 212, 20) ;
+    /* height: 50; */
+}
+.ids a{
+    /* color: rgb(255, 212, 20) ; */
+    /* gap: 3vw; */
+}
+.ids a:hover{
+    /* color: rgb(16, 199, 10); */
+    /* background-color: white; */
+}
+@media (max-width:900px) {
+    main h1{
+        font-size: 40px;
+    }
+}
